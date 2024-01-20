@@ -1,8 +1,3 @@
-
-
-
-
-## Live Link: 
 # GypsyTales : Traver Planner
 
 Welcome to GypsyTales : Traver Planner! This repository contains a complete Fullstack (ReactJS & NodeJS)  project GypsyTales.
