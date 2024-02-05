@@ -99,12 +99,12 @@ const DestinationHome = () => {
                     <div className='md:grid grid-cols-3 md:gap-4 gap-2 md:space-y-0 space-y-2'>
                         {
                             cards.slice(0, 3).map((card, index) => (
-                                <div key={index} className='relative md:h-[350px] h-[200px]'>
+                                <div key={index} className='relative md:h-[350px] h-[200px] rotate-[]'>
                                     <img className=' md:h-[350px] h-[200px] w-full brightness-150 saturate-150' src={card.image} alt="" />
 
-                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full opacity-60'></div>
+                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full hover:opacity-30 opacity-60'></div>
                                     <div className='absolute text-white bottom-10 font-serif text-center left-[20%] space-y-4'>
-                                        <p className='md:text-3xl text-xl font-bold'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
+                                        <p className='md:text-3xl text-xl font-bold hover:text-[#FC0B07]'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
                                         <p className='md:text-2xl text-lg font-semibold'>{card.travelers} Travelers</p>
                                     </div>
                                 </div>
@@ -114,12 +114,12 @@ const DestinationHome = () => {
                     <div className='md:grid grid-cols-2 gap-4  md:h-[340px] w-full  md:space-y-0 space-y-2'>
                         {
                             cards.slice(3, 5).map((card, index) => (
-                                <div key={index} className='relative'>
+                                <div key={index} className='relative  rotate-[]'>
                                     <img className=' md:h-[340px] h-[200px] w-full brightness-150 saturate-150' src={card.image} alt="" />
 
-                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full opacity-60'></div>
+                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full hover:opacity-30 opacity-60'></div>
                                     <div className='absolute text-white bottom-10 font-serif text-center left-[30%] space-y-4'>
-                                    <p className='md:text-3xl text-xl font-bold'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
+                                    <p className='md:text-3xl text-xl font-bold hover:text-[#FC0B07]'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
                                         <p className='md:text-2xl text-lg font-semibold'>{card.travelers} Travelers</p>
                                     </div>
                                 </div>
@@ -130,11 +130,11 @@ const DestinationHome = () => {
                 <div className='md:w-[30%] md:space-y-0 space-y-2'>
                     {
                         cards.slice(5, 6).map((card, index) => (
-                            <div key={index} className='relative'>
+                            <div key={index} className='relative  rotate-[]'>
                                 <img className='md:h-[700px] h-[400px] w-full brightness-100 saturate-150' src={card.image} alt="" />
-                                <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full opacity-60'></div>
+                                <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full hover:opacity-30 opacity-60'></div>
                                 <div className='absolute text-white bottom-10 font-serif text-center left-[30%] space-y-4'>
-                                <p className='md:text-3xl text-xl font-bold'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
+                                <p className='md:text-3xl text-xl font-bold hover:text-[#FC0B07]'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
                                     <p className='md:text-2xl text-lg font-semibold'>{card.travelers} Travelers</p>
                                 </div>
                             </div>
@@ -148,12 +148,12 @@ const DestinationHome = () => {
                     <div className='md:grid grid-cols-3 gap-4 md:space-y-0 space-y-2'>
                         {
                             cards.slice(6, 9).map((card, index) => (
-                                <div key={index} className='relative md:h-[350px]  '>
+                                <div key={index} className='relative  rotate-[] md:h-[350px]  '>
                                     <img className=' md:h-[350px] h-[200px] w-full brightness-150 saturate-150' src={card.image} alt="" />
 
-                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full opacity-60'></div>
+                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full hover:opacity-30 opacity-60'></div>
                                     <div className='absolute text-white bottom-10 font-serif text-center left-[20%] space-y-4'>
-                                    <p className='md:text-3xl text-xl font-bold'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
+                                    <p className='md:text-3xl text-xl font-bold hover:text-[#FC0B07]'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
                                         <p className='md:text-2xl text-lg font-semibold'>{card.travelers} Travelers</p>
                                     </div>
                                 </div>
@@ -163,12 +163,12 @@ const DestinationHome = () => {
                     <div className='md:grid grid-cols-2 gap-4  md:h-[340px]  md:space-y-0 space-y-2'>
                         {
                             cards.slice(9, 11).map((card, index) => (
-                                <div key={index} className='relative '>
+                                <div key={index} className='relative  rotate-[]'>
                                     <img className=' md:h-[340px] h-[200px] w-full brightness-150 saturate-150' src={card.image} alt="" />
 
-                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full opacity-60'></div>
+                                    <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full hover:opacity-30 opacity-60'></div>
                                     <div className='absolute text-white bottom-10 font-serif text-center left-[30%] space-y-4'>
-                                    <p className='md:text-3xl text-xl font-bold'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
+                                    <p className='md:text-3xl text-xl font-bold hover:text-[#FC0B07]'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
                                         <p className='md:text-2xl text-lg font-semibold'>{card.travelers} Travelers</p>
                                     </div>
                                 </div>
@@ -179,11 +179,12 @@ const DestinationHome = () => {
                 <div className='md:w-[30%] md:pt-0 pt-2'>
                     {
                         cards.slice(11, 12).map(card => (
-                            <div className='relative'>
-                                <img className='md:h-[700px] h-[400px] w-full brightness-150 saturate-150' src={card.image} alt="" />
-                                <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full opacity-60'></div>
+                            <div className='relative  rotate-[]'>
+                                <Link to={`/destHome/${card.location}`}><img className='md:h-[700px] h-[400px] w-full brightness-150 saturate-150' src={card.image} alt="" /></Link>
+                                
+                                <div className='absolute inset-0 bg-gradient-to-t from-black to-blue-400 w-full h-full hover:opacity-30 opacity-60'></div>
                                 <div className='absolute text-white bottom-10 font-serif text-center left-[30%] space-y-4'>
-                                <p className='md:text-3xl text-xl font-bold'><Link to={`/destHome/${card.location}`}>{card.location}</Link></p>
+                                <p className='md:text-3xl text-xl font-bold hover:text-[#FC0B07]'>{card.location}</p>
                                     <p className='md:text-2xl text-lg font-semibold'>{card.travelers} Travelers</p>
                                 </div>
                             </div>
